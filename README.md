@@ -1,9 +1,10 @@
 # King Midas
+## Powered by Cypress
 
 This is a bot script for vktarget.ru. It should pretend to be a real user that goes to vktarget, waits for the tasks,
 saves those tasks to Firebase and waits. At the same time, another part of this script should pretend to be a vk and
 Instagram users. This two scripts wait for new tasks in Firebase, do them and mark them as checked. At the same time,
- the first script is waiting for checked but not verified tasks to appear in Firebase. A soon as one of
+ the first script is waiting for checked but not verified tasks to appear in Firebase. As soon as one of
 scripts marks a task as checked, it will try to press the button "the task is ready" and receive payment.
 
 I've ran into a bug that I cant handle for a lot of time; the first script, watcher.js crashes after first task
