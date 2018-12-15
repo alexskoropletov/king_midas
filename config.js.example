@@ -1,0 +1,25 @@
+module.exports = {
+  target: 'https://vktarget.ru',
+  fbConfig: {
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: ""
+  },
+  accounts: {
+    target: {
+      login: '',
+      password: '',
+    },
+    vk: {
+      login: '',
+      password: ''
+    },
+    instagram: {
+      login: '',
+      password: ''
+    }
+  }
+};
