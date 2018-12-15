@@ -1,5 +1,5 @@
 # King Midas
-## Powered by Cypress
+## Powered by [Cypress](https://www.cypress.io/)
 
 This is a bot script for vktarget.ru. It should pretend to be a real user that goes to vktarget, waits for the tasks,
 saves those tasks to Firebase and waits. At the same time, another part of this script should pretend to be a vk and
