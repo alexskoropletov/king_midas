@@ -1,0 +1,7 @@
+config.js
+logs/*
+!logs/.gitkip
+node_modules
+cypress/videos
+cypress/screenshots
+.idea
